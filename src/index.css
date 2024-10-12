@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@import url('/Revamped-X3q1a.ttf');
+@font-face {
+    font-family: 'Revamped-X3q1a';
+    src: url('/Revamped-X3q1a.ttf') format('truetype');
+}
+
+
+/* .titillium-web-extralight {
+    font-family: "Titillium Web", sans-serif;
+} */
+
+.custom-body {
+    background: #1f1c18;
+    background: -webkit-linear-gradient(83deg, #1f1c18 0%, #831717 50%, #8e0e00 100%);
+    background: linear-gradient(83deg, #1f1c18 0%, #831717 50%, #8e0e00 100%);
+}
+
+.custom-body-2 {
+    background: #8E0E00;
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+}
+
+.custom-body-3 {
+    background: #000428;
+    background: -webkit-linear-gradient(72deg, #000428 0%, rgba(24, 24, 83, 0.96) 50%, #004e92 100%);
+    background: linear-gradient(72deg, #000428 0%, rgba(24, 24, 83, 0.96) 50%, #004e92 100%);
+}
+
+/* 
+text-#fcf9f9
+line-#00448e
+primary-#8e0e00
+elements-#120100
+*/
+
+
+:root {
+    --cursor-size: 42px;
+    --bg: #FAF7EE;
+}
+
+#cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    filter: url(#goo);
+    z-index: 1000;
+    
+}
+
+.cursor-circle {
+    position: absolute;
+    width: var(--cursor-size);
+    height: var(--cursor-size);
+    border-radius: 50%;
+    background: var(--bg);
+    transform-origin: center center;
+    transition: transform 0.1s ease-out;
+}
+
+body, html,  button, a, input, textarea {
+    cursor: none !important;
+}

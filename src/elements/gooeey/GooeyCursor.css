@@ -1,0 +1,34 @@
+:root {
+    --cursor-size: 42px;
+    /* --bg: #eceeff; */
+    --bg: #d5c6a4;
+    /* --bg: #00a3e0; */
+    /* --bg: #fdfcfc; */
+}
+
+#cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    filter: url(#goo);
+    z-index: 1000;
+}
+
+.cursor-circle {
+    position: absolute;
+    width: var(--cursor-size);
+    height: var(--cursor-size);
+    border-radius: 50%;
+    background: var(--bg);
+    transition: transform 0.1s ease-out;
+    transform-origin: center center;
+
+    /* background-color: black;
+    opacity: 1; */
+}
+
+body {
+    overflow-x: hidden;
+}

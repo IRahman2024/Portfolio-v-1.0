@@ -1,0 +1,5 @@
+.custom-body {
+  background: #1f1c18;
+  background: -webkit-linear-gradient(83deg, #1f1c18 0%, #831717 50%, #8e0e00 100%);
+  background: linear-gradient(83deg, #1f1c18 0%, #831717 50%, #8e0e00 100%);
+}
