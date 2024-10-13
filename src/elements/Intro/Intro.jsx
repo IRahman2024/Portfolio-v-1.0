@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 const Intro = () => {
     return (
         <div className="flex mx-[25%] mt-14 
-        font-teko text-5xl text-customText">
+        font-teko text-6xl text-customText">
             <div className="text-left">
                 <h1 className="">Hello</h1>
                 <h1 className="">I'm Ifti And I'm a</h1>

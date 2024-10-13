@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='text-customText'>
         <div className='sticky top-0 z-10'>
           <Navbar></Navbar>
         </div>
