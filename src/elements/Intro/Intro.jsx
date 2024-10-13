@@ -11,7 +11,7 @@ const Intro = () => {
                     sequence={[
                         'Developer',
                         1000,
-                        'Creative',
+                        'Dreamer',
                         1000,
                         'Problem Solver',
                         1000,
