@@ -14,6 +14,7 @@ const About = () => {
                     I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
                 </p>
             </div>
+            {/* skills */}
             <div className='grid justify-center lg:ml-6 lg:w-1/2 text-center'>
                 <h1 className="font-titi text-4xl my-2">My Skills</h1>
                 <div className='grid grid-cols-3 
