@@ -3,9 +3,10 @@ import HoverMe from "../HoverAnimation/HoverMe";
 const About = () => {
     return (
         <div>
-            <div className="grid text-center my-36 justify-items-center">
+            <div id="About" className="grid text-center my-36 justify-items-center">
                 {/* <h1 className="text-6xl font-teko font-bold">About</h1> */}
-                <HoverMe text={'About'}></HoverMe>
+                <HoverMe
+                text={'About'}></HoverMe>
                 <p className="text-2xl font-teko lg:w-[760px] mx-2">Here you will find more information about me, what I do, and my <br />current skills mostly in terms of programming and technology</p>
             </div>
 

@@ -2,7 +2,7 @@ import HoverMe from "../HoverAnimation/HoverMe";
 
 const Projects = () => {
     return (
-        <div className="lg:grid text-center mt-9">
+        <div id="Projects" className="lg:grid text-center mt-9">
 
             <div className="my-36">
                 {/* <h1 className="text-6xl font-teko mb-9 font-bold">Projects</h1> */}

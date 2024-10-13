@@ -7,6 +7,14 @@ const Navbar = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    const scrollToSection = (target) => {
+        // Smoothly scroll to a section by ID or a specific position
+        console.log(target);
+        
+        const section = document.getElementById(target);
+        section && section.scrollIntoView({ behavior: 'smooth' });
+      };
+
     return (
         <div className="navbar bg-black py-6 px-5 md:px-10">
             <div className="flex-1">
@@ -39,20 +47,20 @@ const Navbar = () => {
             {/* Dropdown menu for mobile */}
             <div className={`flex-none ${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
                 <ul className="menu menu-vertical px-1 text-white">
-                    <li><a>About</a></li>
-                    <li><a>Skills</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Contact Me</a></li>
+                    <li><a onClick={() => scrollToSection('About')}>About</a></li>
+                    <li><a onClick={() => scrollToSection('About')}>Skills</a></li>
+                    <li><a onClick={() => scrollToSection('Projects')}>Projects</a></li>
+                    <li><a onClick={() => scrollToSection('Contact')}>Contact Me</a></li>
                 </ul>
             </div>
 
             {/* Regular menu hidden on mobile */}
             <div className="flex-none hidden md:flex">
                 <ul className="menu menu-horizontal px-1 text-white">
-                    <li><a>About</a></li>
-                    <li><a>Skills</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Contact Me</a></li>
+                    <li><a onClick={() => scrollToSection('About')}>About</a></li>
+                    <li><a onClick={() => scrollToSection('About')}>Skills</a></li>
+                    <li><a onClick={() => scrollToSection('Projects')}>Projects</a></li>
+                    <li><a onClick={() => scrollToSection('Contact')}>Contact Me</a></li>
                 </ul>
             </div>
         </div>
