@@ -26,7 +26,7 @@ const Footer = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            https://github.com/IRahman2024f
+                            https://github.com/IRahman2024
                         </a>
                     </div>
                 </nav>
