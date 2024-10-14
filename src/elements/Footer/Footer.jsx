@@ -11,11 +11,11 @@ const Footer = () => {
                         <p>LinkedIn: </p>
                         <a
                             className="text-blue-500 underline ml-2"
-                            href="https://www.linkedin.com/in/iftekhar-rahman-b22999258/"
+                            href="www.linkedin.com/in/irahman784"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            www.linkedin.com/in/iftekhar-rahman-b22999258
+                            www.linkedin.com/in/irahman784
                         </a>
                     </div>
                     <div className="flex">
