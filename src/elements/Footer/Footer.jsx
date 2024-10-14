@@ -11,7 +11,7 @@ const Footer = () => {
                         <p>LinkedIn: </p>
                         <a
                             className="text-blue-500 underline ml-2"
-                            href="www.linkedin.com/in/irahman784"
+                            href="https://www.linkedin.com/in/ifti784/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
